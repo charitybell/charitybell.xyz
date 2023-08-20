@@ -1,0 +1,54 @@
+title = "Charitybell"
+baseURL = "https://blog.charitybell.xyz"
+languageCode = "en-us"
+theme = "PaperMod"
+resourceDir = "resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ''
+enableRobotsTXT = true
+sectionPagesMenu = 'main'
+
+[params]
+mainSections = ['posts']
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+
+[params.homeInfoParams]
+title = "Charitybell Software"
+content = "Software development and contracting"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "github"
+name = "Github"
+url = "https://github.com/charitybell/"
+weight = 1
+
+#[[menu.main]]
+#identifier = "categories"
+#name = "Categories"
+#url = "/categories/"
+#weight = 10
+
+#[[menu.main]]
+#identifier = "tags"
+#name = "Tags"
+#url = "/tags/"
+#weight = 20

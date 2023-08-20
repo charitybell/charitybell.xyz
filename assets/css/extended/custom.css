@@ -1,0 +1,7 @@
+.first-entry {
+  min-height: unset !important;
+}
+
+.first-entry .entry-footer {
+  display: none !important;
+}
